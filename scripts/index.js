@@ -35,8 +35,11 @@ function updateTime(k) {
 setTime();
 
 window.onload = () =>{
+  let tim = setTimeout(() => {
+    document.getElementById('msg').innerHTML = "5 Minutes are left!!, Your resposes will be auto submitted😊";
+  }, 600000);
   let timeout = setTimeout(() => {
-    let ifr = document.getElementsByTagName('iframe')[0].src = "https://docs.google.com/forms/d/e/1FAIpQLSfVpTzIG22PqBEvEmzLZS57ljQpFkR-Szs9_j1D5GIpDx0nBQ/formResponse?usp=pp_url&entry.997995038=3&submit=Submit"
-  }, 5000)
-  console.log("count")
+    let ifr = document.getElementsByTagName('iframe')[0].src = "https://docs.google.com/forms/d/e/1FAIpQLSeen6ZjHm0KvNf2hUubw_fiYbjIA94StUPgzxMWgCG3rFpGYw/formResponse?usp=pp_url&entry.1372842483=truth+is+gold&submit=Submit"
+  }, 900000)
 }
+//https://docs.google.com/forms/d/e/1FAIpQLSeen6ZjHm0KvNf2hUubw_fiYbjIA94StUPgzxMWgCG3rFpGYw/formResponse?usp=pp_url&entry.1372842483=truth+is+gold&submit=Submit
