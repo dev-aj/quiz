@@ -5,7 +5,7 @@ const span_date = document.getElementById('current_date');
 
 const date_time = new Date();
 
-span_date.innerHTML = `${date_time.getDate()}/${date_time.getMonth()}/${date_time.getFullYear()}`;
+span_date.innerHTML = `${date_time.getDate()}/${date_time.getMonth()+1}/${date_time.getFullYear()}`;
 
 const setTime = () => {
     const _time = new Date();
